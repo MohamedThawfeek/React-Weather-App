@@ -1,0 +1,45 @@
+.container {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container h1 {
+  text-align: center;
+  position: relative;
+  font-size: 4em;
+  font-weight: 900;
+  z-index: 1;
+  color: white;
+  overflow: hidden;
+}
+
+.container h1 span {
+  color: red;
+}
+
+.container img {
+  width: 200px;
+  height: 150px;
+  opacity: 0.6;
+}
+
+.container Input {
+  color: white !important;
+  padding: 5px !important;
+  margin: 3% 0 !important;
+  width: 300px !important;
+}
+
+.container Button {
+  background: black !important;
+  padding: 5px !important;
+  margin: 5% 50% !important;
+  transform: translate(-50%);
+  width: 100px !important;
+  border-radius: 12px !important;
+  letter-spacing: 2px !important;
+  box-shadow: 2px 4px 4px 1px rgba(10, 10, 10, 0.5);
+}

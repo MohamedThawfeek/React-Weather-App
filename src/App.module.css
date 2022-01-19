@@ -1,0 +1,10 @@
+.container {
+  background: url("https://linustechtips.com/uploads/gallery/album_497/gallery_39458_497_196394.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
